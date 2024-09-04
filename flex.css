@@ -1,0 +1,205 @@
+.header-container{
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0px;
+
+}
+.header-container1{
+    background-color:green;
+    color: white;
+    width: 50vw;
+   
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.box{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: center;
+
+}
+.box1{
+    background-color: white;
+    color: green;
+    width: 200px;
+    margin: 20px;
+   
+   
+
+}
+.boxmiddle{
+    background-color: white;
+    color: green;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+
+
+    
+}
+.subbox{
+    background-color: lightyellow;
+    width:190px;
+   
+
+}
+header{
+   background-color: lightgrey;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 20px;
+}
+.header-left{
+    display:flex ;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.header-left a{
+
+    display: flex;
+  
+    align-items: center;
+    margin: 0px 15px;
+    height: 45px;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+
+}
+.header-left a:hover{
+    background-color: green;
+    color: white;
+}
+.header-left a:first-child:hover{
+    background-color: transparent;
+}
+.header-right{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+   
+}
+.whitedark{
+    padding:0px 20px;
+}
+
+.whitedark:hover{
+    cursor: pointer;
+    color: green;
+    
+   
+    
+
+}
+.earth{
+    padding: opx 20px;
+}
+.earth:hover{
+    color: green;
+    cursor: pointer;
+  
+}
+.search{
+    padding: 0px 20px;
+}
+.last-header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  
+}
+.star{
+    padding-left: 250px;
+}
+.star:hover{
+    color: green;
+    cursor: pointer;
+}
+.last-header p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.spaces{
+    padding-left: 20px;
+    align-items: center;
+}
+.spaces:hover{
+    color: green;
+    cursor: pointer;
+}
+.signup{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   align-items: center;
+   
+   
+
+    
+}
+.signup h3{
+   margin-left: 20px;
+    background-color: green;
+    border: 1px solid ;
+    border-radius: 15px;
+    width: 60px;
+}
+.signup h3:hover{
+    background-color: green;
+    color: white;
+}
+.signup{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    
+    
+ 
+     
+ }
+ .login h3{
+    margin-left: 20px;
+     background-color: green;
+     border: 1px solid ;
+     border-radius: 15px;
+     width: 60px;
+ }
+ .login h3:hover{
+     background-color: green;
+     color: white;
+ }
+ .login{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+ }
+ .second-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between ;
+    align-items: center;
+   background-color: black;
+   color: green;
+    width: 100vw;
+    height: 50px;
+   
+ }
+ .second-header div:hover{
+   background-color: black;
+   color: white;
+   width: 60px;
+   height: 50px;
+   align-items: center;
+ }
+ 
